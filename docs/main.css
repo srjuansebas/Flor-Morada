@@ -1,0 +1,148 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+h1 {
+    font-family: cursive;
+    text-align: center;
+    color: #fff;
+}
+
+
+.container {
+    margin: 0 auto;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja-flor {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.caja-superior {
+    display: flex;
+    flex-direction: row;
+}
+
+.caja-centro {
+    margin-top: -18px;
+    margin-bottom: -27.5px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.caja-inferior {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.centro {
+    background-color: #FED100;
+    border-radius: 50%;
+    border: 3px solid #EDE725;
+    box-shadow: 0 0 5px #FEEA0A;
+    width: 70px;
+    height: 70px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.tallo {
+    height: 300px;
+    width: 10px;
+    background-color: #38CE0A;
+    margin-top: -150px;
+    box-shadow: 0 0 8px #3CFF00;
+    position: relative;
+}
+
+.hoja1 {
+    height: 30px;
+    width: 70px;
+    background-color: #38CE0A;
+    border-radius: 20% 50% 50% 50%;
+    margin-top: -170px;
+    margin-left: 60px;
+    box-shadow: 0 0 8px #3CFF00;
+}
+
+.hoja2 {
+    height: 30px;
+    width: 70px;
+    background-color: #38CE0A;
+    border-radius: 50% 20% 50% 50%;
+    margin-top: 20px;
+    margin-left: -60px;
+    margin-bottom: 80px;
+    box-shadow: 0 0 8px #3CFF00;
+}
+
+
+
+.petalo {
+    box-shadow: 0 0 10px #B513E8;
+    border: 3px solid #a313e2;
+}
+
+
+.petalo-1 {
+    margin-right: 25px;
+    width: 85px;
+    height: 160px;
+    border-radius: 40px 40px 50% 50%;
+    background-color: #8a2be2;
+    rotate: -40deg;
+}
+
+.petalo-2 {
+    margin-left: 25px;
+    width: 85px;
+    height: 160px;
+    border-radius: 40px 40px 50% 50%;
+    background-color: #8a2be2;
+    rotate: 40deg;
+}
+
+.petalo-3 {
+    width: 150px;
+    height: 85px;
+    border-radius: 40px 50% 50% 40px;
+    background-color: #8a2be2;
+}
+
+.petalo-4 {
+    width: 150px;
+    height: 85px;
+    border-radius: 50% 40px 40px 50%;
+    background-color: #8a2be2;
+}
+
+.petalo-5 {
+    margin-right: 25px;
+    width: 85px;
+    height: 160px;
+    border-radius: 50% 50% 40px 40px;
+    background-color: #8a2be2;
+    rotate: 40deg;
+}
+
+.petalo-6 {
+    margin-left: 25px;
+    width: 85px;
+    height: 160px;
+    border-radius: 50% 50% 40px 40px;
+    background-color: #8a2be2;
+    rotate: -40deg;
+}
